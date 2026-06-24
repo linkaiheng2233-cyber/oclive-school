@@ -1,5 +1,8 @@
 # A.I.Live — 可插拔的角色动脉织机
 
+> **校企二次开发基线** · 上游：[oclivenewnew](https://github.com/linkaiheng2233-cyber/oclivenewnew) · 本仓：[oclive-school](https://github.com/linkaiheng2233-cyber/oclive-school)  
+> 官方发行版与内核契约以 **upstream** 为准；本地定制记录见 [`handoff/distros/SCHOOL_CUSTOMIZATIONS.md`](handoff/distros/SCHOOL_CUSTOMIZATIONS.md)。
+
 > 工程仓库：**oclivenewnew**（工程代号 **oclive**）
 
 [English](README.en.md)

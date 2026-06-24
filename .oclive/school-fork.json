@@ -1,0 +1,8 @@
+{
+  "kind": "school-enterprise-fork",
+  "upstream_url": "https://github.com/linkaiheng2233-cyber/oclivenewnew",
+  "baseline_tag": "school-baseline-v0.4.0",
+  "initialized_at": "2026-06-24T03:46:43.363Z",
+  "initialized_from_commit": "6cdfd143453f83df5ba48eaf7f3c603aefd623d3",
+  "doc": "handoff/distros/SCHOOL_ENTERPRISE_FORK.md"
+}
