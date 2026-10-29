@@ -17,6 +17,8 @@ Recent frontend work or fixes in the main repository are not automatically prese
 
 See [package.json](package.json), [changelog](CHANGELOG.md) and the [documentation entry](creator-docs/README.md). The original longer landing page remains available at the [recorded source snapshot](https://github.com/linkaiheng2233-cyber/oclive-school/blob/b59715f7d8841493fec47c6679840ff3091f35b9/README.en.md).
 
+The [CI observed on 2026-10-29](https://github.com/linkaiheng2233-cyber/oclive-school/actions/workflows/ci.yml) has Rust build, dependency-audit and test-configuration failures. This branch is for source reference, not a release candidate; fixes or successful checks in the main repository do not validate this branch.
+
 License: [LICENSE](LICENSE). Third-party materials and role assets retain their respective source terms.
 
 

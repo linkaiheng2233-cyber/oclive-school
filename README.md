@@ -17,6 +17,8 @@ An alternate OCLive source branch. Its contents and version are separate from th
 
 本分支内容见 [package.json](package.json)、[变更记录](CHANGELOG.md)及[文档入口](creator-docs/README.md)。原始长版首页保留在[此源码快照](https://github.com/linkaiheng2233-cyber/oclive-school/blob/b59715f7d8841493fec47c6679840ff3091f35b9/README.md)。
 
+2026-10-29 的 [CI](https://github.com/linkaiheng2233-cyber/oclive-school/actions/workflows/ci.yml)存在 Rust 构建、依赖审计及测试配置失败。本分支用于源码查阅，不属于本轮发布候选；主仓的修复与检查结果不能代替本分支验收。
+
 [English](README.en.md)
 
 软件许可见 [LICENSE](LICENSE)；第三方内容与角色素材按其来源声明核对。
