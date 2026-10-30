@@ -67,6 +67,10 @@ runStep('layering ratchet', () => {
   sh('node', ['scripts/check-domain-layering.mjs']);
 });
 
+runStep('runtime state is not tracked', () => {
+  sh('node', ['scripts/check-runtime-state-untracked.mjs']);
+});
+
 runStep('cargo audit (no-fetch stale)', () => {
   sh('cargo', ['audit', '--no-fetch', '--stale']);
 });
