@@ -15,6 +15,15 @@ permissions:
   contents: read
 
 jobs:
+  runtime-data-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Reject tracked local runtime data
+        run: node scripts/check-runtime-state-untracked.mjs
+      - name: Verify clean and forced-tracked fixtures
+        run: node --test scripts/check-runtime-state-untracked.test.mjs
+
   rust:
     strategy:
       fail-fast: false
