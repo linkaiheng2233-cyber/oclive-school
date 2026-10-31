@@ -1,8 +1,10 @@
-# oclive-school · OCLive 源码分支
+# oclive-school · 只读历史源码
 
-本仓保留 OCLive 的另一份源码分支，版本与主仓分别维护。当前源码包标识为 `oclivenewnew`、版本为 `0.4.0`，本仓没有上传独立 Release 附件。
+**本仓已退役，作为只读历史仓库保存。** 不再推进功能、依赖或构建维护；新用户和贡献者请前往下方主项目入口。
 
-An alternate OCLive source branch. Its contents and version are separate from the primary development and release repository.
+历史源码包标识为 `oclivenewnew`、版本为 `0.4.0`，本仓没有独立 Release 附件。源码和目录内文档保留当时状态，不作为当前使用、兼容或安全维护的承诺。
+
+A retired, read-only historical OCLive source snapshot. Use the primary repository for current development and releases.
 
 ## 日常使用与最新入口
 
@@ -13,11 +15,13 @@ An alternate OCLive source branch. Its contents and version are separate from th
 
 主仓的近期新前端与修补不自动存在于本分支；也不应将本分支的旧文档、路径或截图当作主仓当前状态。
 
-## 查看本分支
+## 查阅历史
 
 本分支内容见 [package.json](package.json)、[变更记录](CHANGELOG.md)及[文档入口](creator-docs/README.md)。原始长版首页保留在[此源码快照](https://github.com/linkaiheng2233-cyber/oclive-school/blob/b59715f7d8841493fec47c6679840ff3091f35b9/README.md)。
 
-2026-10-29 的 [CI](https://github.com/linkaiheng2233-cyber/oclive-school/actions/workflows/ci.yml)存在 Rust 构建、依赖审计及测试配置失败。本分支用于源码查阅，不属于本轮发布候选；主仓的修复与检查结果不能代替本分支验收。
+既有 [CI](https://github.com/linkaiheng2233-cyber/oclive-school/actions/workflows/ci.yml)存在 Rust 构建、依赖审计及测试配置失败，退役归档不表示这些问题已修复。本次仅清理当前树中的本机运行数据、补充索引守卫并明确维护边界；主仓的修复与检查结果不能代证本快照。
+
+当前树清理不改写旧提交。历史来源和已存在的 tag 保持原样；不要将历史运行状态或旧版本文档重新混入当前产品。
 
 [English](README.en.md)
 

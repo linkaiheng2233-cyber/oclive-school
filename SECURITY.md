@@ -1,5 +1,7 @@
 # 安全说明
 
+> **本历史仓库已退役，不再提供旧分支的安全更新。** 下文是原有说明，不构成当前支持承诺。涉及现行 A.I.Live 的漏洞请按[主仓安全政策](https://github.com/linkaiheng2233-cyber/oclivenewnew/blob/main/SECURITY.md)私下报告。
+
 ## 分发与隐私（速览三问）
 
 1. **第三方模型与 API**：默认 **本地 Ollama**；若使用云端或 HTTP 侧车，密钥与出站网络由 **用户与侧车** 配置负责 — 见 [SIDECAR_LLM_USER_GUIDE.md](creator-docs/getting-started/SIDECAR_LLM_USER_GUIDE.md)。  

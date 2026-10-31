@@ -2,6 +2,8 @@
 
 [English](CONTRIBUTING.en.md)
 
+> **历史仓库已退役。** 下文保留原贡献流程供查阅，本仓不再接收功能开发或构建维护。当前贡献请使用[主仓贡献指南](https://github.com/linkaiheng2233-cyber/oclivenewnew/blob/main/CONTRIBUTING.md)。
+
 感谢考虑为 **A.I.Live** 做贡献。项目目标见 [creator-docs/roadmap/VISION_ROADMAP_MONTHLY.md](creator-docs/roadmap/VISION_ROADMAP_MONTHLY.md)。
 
 行为准则：[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)

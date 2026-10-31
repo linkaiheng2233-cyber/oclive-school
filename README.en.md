@@ -1,6 +1,8 @@
-# oclive-school · alternate OCLive source branch
+# oclive-school · historical source archive
 
-This repository preserves another OCLive source branch. Its package is named `oclivenewnew` at version `0.4.0`; no separate release assets are uploaded here. Its source and documentation are not the current primary release snapshot.
+**Retired and retained as a read-only historical repository.** Feature development, dependency updates and build maintenance have ended here. Use the primary project below for current use and contributions.
+
+The historical package is named `oclivenewnew` at version `0.4.0`, with no separate release assets. Source and documentation preserve their original context; they are not current compatibility, usability or security-support commitments.
 
 [简体中文](README.md)
 
@@ -13,11 +15,13 @@ This repository preserves another OCLive source branch. Its package is named `oc
 
 Recent frontend work or fixes in the main repository are not automatically present in this branch. Likewise, an older path, screenshot or instruction here does not describe the main repository's current state.
 
-## This branch
+## Reading the history
 
 See [package.json](package.json), [changelog](CHANGELOG.md) and the [documentation entry](creator-docs/README.md). The original longer landing page remains available at the [recorded source snapshot](https://github.com/linkaiheng2233-cyber/oclive-school/blob/b59715f7d8841493fec47c6679840ff3091f35b9/README.en.md).
 
-The [CI observed on 2026-10-29](https://github.com/linkaiheng2233-cyber/oclive-school/actions/workflows/ci.yml) has Rust build, dependency-audit and test-configuration failures. This branch is for source reference, not a release candidate; fixes or successful checks in the main repository do not validate this branch.
+Existing [CI](https://github.com/linkaiheng2233-cyber/oclive-school/actions/workflows/ci.yml) has Rust build, dependency-audit and test-configuration failures. Retirement does not claim those failures were fixed. This cleanup removes local runtime data from the current tree, adds an index guard and clarifies support boundaries; successful primary-repository checks do not validate this snapshot.
+
+Current-tree cleanup does not rewrite old commits. Existing historical sources and tags retain their targets; historical runtime state and obsolete instructions must not be reintroduced into the current product.
 
 License: [LICENSE](LICENSE). Third-party materials and role assets retain their respective source terms.
 
